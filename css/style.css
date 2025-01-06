@@ -1,0 +1,431 @@
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+:root{
+    --end-line: #007aff;
+}
+img{
+    display: flex;
+}
+input:focus{
+    outline: 1px solid #0077ff;
+}
+.back{
+    background-image: linear-gradient(rgba(0,0,0,.2) ,rgba(0,0,0.2)) ,url(/imgs/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+
+}
+.scroll{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: rgb(0, 120, 255);;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 8px;
+    right: 9px;
+    z-index: 999;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(0,0,0,.9) !important;
+    padding-top: 10px;
+}
+.navbar {
+    --bs-navbar-brand-font-size: 2.0rem;
+    --bs-navbar-brand-color: rgb(234 226 226);
+    z-index: 999;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+.nav-link {
+    display: block;
+    padding: 0 1.5rem;
+    font-size: 1.20rem;
+    font-weight: 400;
+    color: white
+}
+.navbar-toggler {
+ background-color: rgba(255, 255, 255, 0.516);
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color:white;
+}
+.nav-item a:hover{
+    text-decoration: underline white;
+    color: white;
+}
+.nav-item .active{
+    text-decoration: underline white;
+}
+.nav-item a:focus{
+   text-decoration: red underline;
+   color: red;
+}
+.head{
+    color: white;
+    font-size:calc( 4.1vw + 16px );
+    max-width: 80%;
+    margin: auto;
+}
+.head:after{
+  content: "";
+font-size: calc( 2.1vw + 16px );
+animation-name: text;
+animation-iteration-count: infinite;
+animation-duration: 4s;
+}
+.details{
+    max-width: 40%;
+}
+.w-img img{
+    min-width: 50%;
+}
+
+.w-img p{
+    line-height: 40px;
+    min-width: 80%;
+}
+.detils span{
+    font-weight: 600;
+    color: rgba(30, 30, 30, 0.784);
+    font-size: 1.1rem;
+}
+.line hr{
+    width: 40%;
+    height: 4px;
+    background-color: rgb(0, 0, 255);
+    color: blue;
+}
+.linear{ 
+    width: 90%;
+    height: 10px;
+    background-image: linear-gradient(to right,rgb(0, 120, 255), 85%,rgb(205, 225, 248) 14%);
+}
+.linear2{ 
+    width: 90%;
+    height: 10px;
+    background-image: linear-gradient(to right,rgb(0, 120, 255), 75%,rgb(205, 225, 248) 14%);
+}
+.linear3{ 
+    width: 90%;
+    height: 10px;
+    background-image: linear-gradient(to right,rgb(0, 120, 255), 50%,rgb(205, 225, 248) 14%);
+}
+.linear4{ 
+    width: 90%;
+    height: 10px;
+    background-image: linear-gradient(to right,rgb(0, 120, 255), 90%,rgb(205, 225, 248) 14%);
+} 
+.hr hr{
+    width: 25%;
+    height: 4px;
+    background-color: var(--end-line);
+}
+.size h3{
+    color: rgba(78, 78, 78, 0.816);
+    font-size: 1rem;
+}
+.service h1{
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.end{
+    width: 5%;
+    margin: auto;
+    height: 5px;
+    margin-top: 15px;
+    background-color: var(--end-line);
+}
+.shadow-card{
+    box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.075);
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+.shadow-card .icon{
+    height: 80px;
+    width: 80px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;
+    margin-bottom: 20px;
+  transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;  
+}
+.shadow-card:hover .icon{
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #0077ff41;
+    color: white;
+}
+
+
+/* bag */
+.bag{
+    background-image: linear-gradient(#0077ffad,#0077ff8c), url(/imgs/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+
+
+}
+.bag .icon{
+    height: 65px;
+    width: 65px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #ffffffa5;
+    display: block;
+    margin-bottom: 20px;
+  transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; 
+}
+/* end bag */
+
+
+
+/* portfolio */
+.Portfolio{
+    background-color: #f6f5f5;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.Portfolio img{
+    transition: .6s;
+    overflow: hidden;
+}
+.Portfolio .item:hover img{
+    transform: scale(1.1);
+
+}
+.Portfolio span{
+    color: rgb(0, 120, 255);
+}
+.Portfolio .icon-card{
+    width: 35px;
+    height: 35px;
+    box-shadow: 0 0 0 3px #0077ffe7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.Portfolio .cards{
+    background-color: #ffffff;
+ box-shadow: 0 13px 8px -2px rgba(0, 0, 0, 0.1);   
+ overflow: hidden;
+ margin: 0 -14px;
+ /* margin-bottom: 10px; */
+}
+/* end protfolio */
+
+/* work */
+.work{
+    background-image: linear-gradient(#0077ffad,#0077ff8c), url(/imgs/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.work p{
+    max-width: 60%;
+}
+.work img{
+    width: 13%;
+    border-radius: 50%;
+}
+.work .cycle-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work .cycle{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.644);
+    margin: 20px 2px;
+    border-radius: 50%;
+}
+/* end work */
+
+
+.main-title p{
+    position: relative;
+    padding-bottom: 10px;
+}
+.main-title p::before{
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color: var(--end-line);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+  
+}
+.blog{
+    box-shadow: 0 13px 8px -2px rgba(0, 0, 0, 0.1); 
+}
+.blog-sh{
+    border-radius: 40px;
+}
+
+.img-inline img{
+    width: 29px;
+}
+.blog a{
+    color: black;
+    transition: 0.6s;
+}
+.blog a:hover{
+    color: blue;
+}
+ .page span {
+    color: red;
+    position: relative;
+    bottom: 11px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 120, 255);
+    overflow: hidden;
+    font-size: 11px;    
+}
+.blog p{
+        color: rgb(78, 78, 78);
+}
+.blog .inline-blog{
+    background-color: rgb(245, 245, 245);
+}
+/* end */
+
+/* footer */
+.footer{
+    background-image: linear-gradient(#0077ffad,#0077ff8c), url(/imgs/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    position: static;
+    left: 0;
+    right: 0;
+}
+.bk{
+    background-color: white;
+    color: black;
+}
+.bk-1{
+    min-height: 90vh;
+}
+.end-footer{
+    width: 13%;
+    height: 3px;
+    background-color: #0078ff;
+    margin-left: 1px;
+}
+.bk-1 button{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--end-line);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    transition: 0.5s;
+    font-size: 19px;
+}
+.bk-1 button:hover{
+    background-color: #0078ff;
+    box-shadow: 0 0 0 5px #0077ff41;
+    color: white;
+}
+.bk-1 .btn-2{
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+}
+.col .inline-icon .location i{
+   color: #0078ff;
+}
+.bk-1 .conect-icon .icons-3{
+    height: 30px;
+    width: 30px;
+    font-size: 1rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    text-align: center;
+    box-shadow: 0 0 0 4px #0078ff;
+    display: block;
+    margin-bottom: 20px;
+  transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; 
+}
+.bk-1 .conect-icon .icons-3 i{
+    font-size: 1rem;
+}
+.bk-1 .conect-icon .icons-3:hover{
+    background-color: #0078ff;
+    box-shadow: 0 0 0 5px #0077ff41;
+    color: white;
+    cursor: pointer;
+}
+
+.end-section{
+    background-image: linear-gradient(to top,#0077ff,#1265c4);
+    box-shadow: 0 0 9px rgba(34, 62, 93, 0.63);
+    height: 20vh;
+    color: white;
+}
+.end-section .footer-end p{
+    max-width: 25%;
+    margin: auto;
+}

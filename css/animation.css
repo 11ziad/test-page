@@ -1,0 +1,83 @@
+@keyframes text{
+ 0%{
+        content: " de|";
+ }
+ 3.8%{
+        content: " dev|";
+ }
+ 7.6%{
+        content: " deve|";
+ }
+11.4%{
+        content: " devel|";
+ }
+15.2%{
+        content: " develo|";
+ }
+ 19%{
+        content: " develop|";
+ }
+ 22.8%{
+        content: " develope|";
+ }
+ 26.6%{       
+        content: " developer|";
+ }
+30.4%{
+        content: " develope|";    
+ }
+ 34.2%{
+        content: " develop|";  
+ }
+ 38%{
+        content: " develo|";
+ }
+ 41.8%{    
+        content: " devel|";
+ }
+ 45.6%{
+        content: " deve|";
+    }
+ 49.4%{
+            content: " dev|";
+    }
+ 53.2%{  
+        content: " de|";
+ }
+ 57.0%{  
+       content: " des|";
+}
+60.8%{  
+       content: " desi|";
+}
+64.6%{  
+       content: " desin|";
+}
+68.4%{  
+       content: " desine|";
+}
+72.2%{  
+       content: " desiner|";
+}
+76.0%{  
+       content: " desiner|";
+}
+79.8%{  
+       content: " desine|";
+}
+83.6%{  
+       content: " desin|";
+}
+87.4%{  
+       content: " desi|";
+}
+91.2%{  
+       content: " des|";
+}
+100%{  
+       content: " de|";
+}
+
+/* 26 */
+   
+}
